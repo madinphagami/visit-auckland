@@ -16,3 +16,35 @@ body {
 img {
     width: 100px;
 }
+
+#hero-section {
+    background-image: url(https://images.unsplash.com/photo-1595125990323-885cec5217ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-text {
+    background: #1D3557;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.hero-subtitle {
+    background: #457B9D;
+}
+
+.acts-title {
+    color: #1D3557;
+    padding: 20px;
+    margin-bottom: 50px;
+}
